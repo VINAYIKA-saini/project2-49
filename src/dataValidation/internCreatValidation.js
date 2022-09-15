@@ -91,7 +91,7 @@ const isValidMobile = function (mobile) {
         let regex1 = /^((0091)|(\+91)|0?)[6789]{1}\d{9}$/
 
         if (!(regex1.test(mobile))) {
-            return "mobile number should be start 6 or  10 digits."
+            return "mobile number should be start 6 to 9 or  10 digits."
         }
         //------------------------------------> (END FUNCTION ) <------------------------------//
 
