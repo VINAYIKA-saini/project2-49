@@ -44,7 +44,7 @@ const createCollege = async function (req, res) {
             "logoLink" : logoLink,
             "isDeleted" : false
         }
-        return res.status(201).send({ status: true, msg: "Data successfully created" ,data: savedData })
+        return res.status(201).send({ status: true, message: "Data successfully created" ,data: savedData })
          //------------------------> (END API) <------------------------------//
 
     }
